@@ -1,0 +1,35 @@
+{
+  "name": "vk",
+  "version": "0.0.3",
+  "homepage": "https://vkvideo.ru/",
+  "config": {
+    "title": "VK",
+    "icon": "https://static.rustore.ru/imgproxy/kSjDiz_MKxD_jzwgEqqaIjQZTE-NEP1Xt8HtJT7EU4s/preset:app_card_icon/aHR0cHM6Ly9zdGF0aWMucnVzdG9yZS5ydS9hcGsvMjAyNzgyMzI5NS9jb250ZW50L0lDT04vOTc0ODYwMTgtNTc4NS00MjRkLTljYWItNGZlNDk2ZDI3Yzc2LnBuZw==.webp"
+  },
+  "keywords": [
+    "Video Hostings"
+  ],
+  "author": {
+    "name": "Streamyx",
+    "url": "https://streamyx.tv/"
+  },
+  "contributors": [
+    {
+      "name": "Vitaly Gashkov",
+      "email": "vitalygashkov@vk.com",
+      "url": "https://github.com/vitalygashkov"
+    }
+  ],
+  "license": "MIT",
+  "main": "vk.js",
+  "files": [
+    "vk.js"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "@streamyx/api": "^0.2.10",
+    "@streamyx/core": "^2.3.3",
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}
