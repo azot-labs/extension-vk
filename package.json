@@ -7,7 +7,7 @@
     "icon": "https://static.rustore.ru/imgproxy/kSjDiz_MKxD_jzwgEqqaIjQZTE-NEP1Xt8HtJT7EU4s/preset:app_card_icon/aHR0cHM6Ly9zdGF0aWMucnVzdG9yZS5ydS9hcGsvMjAyNzgyMzI5NS9jb250ZW50L0lDT04vOTc0ODYwMTgtNTc4NS00MjRkLTljYWItNGZlNDk2ZDI3Yzc2LnBuZw==.webp"
   },
   "keywords": [
-    "Video Hostings"
+    "video-hostings"
   ],
   "author": {
     "name": "Azot",
@@ -27,9 +27,8 @@
   ],
   "scripts": {},
   "devDependencies": {
-    "@streamyx/api": "^0.2.10",
-    "@streamyx/core": "^2.3.3",
-    "@types/node": "^22.15.21",
+    "@types/node": "^24.0.15",
+    "azot": "^0.9.0",
     "typescript": "^5.8.3"
   }
 }

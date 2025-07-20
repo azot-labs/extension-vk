@@ -1,10 +1,8 @@
 'use strict';
 
-const { defineExtension } = require('@streamyx/api');
+const { defineExtension } = require('azot');
 
 module.exports = defineExtension({
-  name: 'vk',
-  tag: 'VK',
   fetchContentMetadata: async (url, args) => {
     const [ownerId, videoId] = url.split('video-')[1].split('_');
 
