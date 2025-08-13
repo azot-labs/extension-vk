@@ -1,9 +1,7 @@
-'use strict';
+import { defineExtension } from 'azot';
 
-const { defineExtension } = require('azot');
-
-module.exports = defineExtension({
-  fetchContentMetadata: async (url, args) => {
+export default defineExtension({
+  async fetchContentMetadata(url, args) {
     const [ownerId, videoId] = url.split('video-')[1].split('_');
 
     const response = await fetch('https://vkvideo.ru/al_video.php?act=show', {
